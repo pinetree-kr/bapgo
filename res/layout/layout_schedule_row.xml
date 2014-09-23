@@ -1,0 +1,94 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="720" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal"
+        android:weightSum="720" >
+
+        <LinearLayout
+            android:id="@+id/scheduleDate"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="120"
+            android:orientation="horizontal" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/textDate"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center|bottom"
+                    android:textSize="25sp" />
+
+                <TextView
+                    android:id="@+id/textWeek"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center|top"
+                    android:textSize="10sp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <FrameLayout
+            android:id="@+id/schedulePeriod1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="200" >
+
+            <ToggleButton
+                android:id="@+id/buttonBreakFirst"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textOff="@string/breakfirst_kr"
+                android:textOn="@string/breakfirst_kr" />
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/schedulePeriod2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="200" >
+
+            <ToggleButton
+                android:id="@+id/buttonLunch"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textOff="@string/lunch_kr"
+                android:textOn="@string/lunch_kr" />
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/schedulePeriod3"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="200" >
+
+            <ToggleButton
+                android:id="@+id/buttonDinner"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textOff="@string/dinner_kr"
+                android:textOn="@string/dinner_kr" />
+
+        </FrameLayout>
+    </LinearLayout>
+
+</LinearLayout>

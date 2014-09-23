@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<color name="textMonth">#22000000</color>
+	<color name="textMonthNum">#DD000000</color>
+	
+	<color name="menuLine">#DD1455AD</color>
+    <color name="titleBottomStart">#661455ED</color>
+    <color name="titleBottomEnd">#001455AD</color>
+    
+    <color name="bg">#ffffff</color>
+    <color name="white">#ffffff</color>
+    <color name="orange">#ffa500</color>
+    <color name="title">#336699</color>
+    <color name="titleStart">#BB1455ED</color>
+    <color name="titleEnd">#FF1455AD</color>
+</resources>

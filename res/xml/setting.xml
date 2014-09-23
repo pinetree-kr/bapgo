@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+    <PreferenceCategory
+        android:title="@string/productor_kr">
+	    <Preference 
+	        android:key="productor"
+	        android:title="@string/productor_name_kr"
+	        android:summary="@string/productor_email"/>
+    </PreferenceCategory>
+
+</PreferenceScreen>

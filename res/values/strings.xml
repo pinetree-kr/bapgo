@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">bapgo</string>
+    <string name="app_name_kr">밥 고(考)</string>
+    <string name="app_name_description">Bap And Person, 살피다 고(考)</string>
+    
+    <string name="no_data">No Data</string>
+    <string name="no_data_kr">데이터가 없습니다</string>
+    
+    <string name="page_more">더보기</string>
+    <string name="page_timeline">타임라인</string>
+    <string name="page_friend">친구</string>
+    <string name="page_schedule">스케쥴</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+	
+	<string name="quit">종료 메시지</string>
+    <string name="really_quit">정말 종료하시겠습니까?</string>
+    <string name="empty_loginForm">아이디 혹은 비밀번호가 비어있습니다</string>
+    <string name="empty_registerForm">이름 혹은 휴대폰 번호가 비어있습니다</string>
+	
+	<string name="id">ID</string>
+	<string name="id_kr">아이디</string>
+	<string name="idEmail">ID or E-mail</string>
+	<string name="idEmail_kr">아이디 또는 이메일</string>
+    <string name="pw">PW</string>
+    <string name="pwfull">PASSWORD</string>
+    <string name="pw_kr">비밀번호</string>
+	<string name="name">NAME</string>
+	<string name="name_kr">이름</string>
+    <string name="phoneno">Phone Number</string>
+    <string name="phoneno_kr">휴대폰 번호</string>
+    <string name="register">Register</string>
+    <string name="register_kr">등록</string>
+    <string name="login">Login</string>
+    <string name="login_kr">로그인</string>
+    <string name="yes">Yes</string>
+    <string name="yes_kr">네</string>
+    <string name="no">No</string>
+    <string name="no_kr">아니오</string>
+    <string name="auto_fill">ID 저장</string>
+    <string name="auto_login">자동 로그인</string>
+    
+    <string name="productor">Productor</string>
+    <string name="productor_kr">개발자</string>
+    <string name="productor_name">Song Jee-Ho</string>
+    <string name="productor_name_kr">송지호</string>
+    <string name="productor_email">vanadate.kr@gmail.com</string>
+    
+    <string name="date">Date</string>
+    <string name="date_kr">날짜</string>
+    <string name="breakfirst">Breakfirst</string>
+    <string name="breakfirst_kr">아침</string>
+    <string name="lunch">Lunch</string>
+    <string name="lunch_kr">점심</string>
+    <string name="dinner">Dinner</string>
+    <string name="dinner_kr">저녁</string>
+    
+    <string name="default_info_kr">기본정보</string>
+    <string name="default_info_version_kr">버전정보</string>
+
+    <string name="private_info_kr">개인정보</string>
+    <string name="private_info_login_kr">로그인정보</string>
+    <string name="private_info_blacklist_kr">차단된친구</string>
+    
+    <string name="close">Close</string>
+    <string name="close_kr">닫기</string>
+    
+    <string name="detail">More</string>
+    <string name="detail_kr">더보기</string>
+    
+    <string name="more">More...</string>
+    <string name="more_kr">더보기...</string>
+    <string name="more_done">End of list.</string>
+    <string name="more_done_kr">리스트의 마지막입니다.</string>
+    
+    <string name="refresh">Refresh to pull.</string>
+    <string name="refresh_kr">새로고침 하시려면 당기세요.</string>
+    
+    <string name="refresh_done">Refresh to pull.</string>
+    <string name="refresh_done_kr">새로고침 하시려면 놓으세요.</string>
+</resources>
